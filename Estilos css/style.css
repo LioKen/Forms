@@ -58,14 +58,15 @@ h2 {
     margin: 0 auto;
 }
 
+/*
 .sombra {
     -webkit-box-shadow: 0px 10px 15px 3px rgb(227, 222, 230);
     -moz-box-shadow: 0px 10px 15px 3px rgb(136, 100, 150);
     box-shadow: 0px 10px 15px 3px rgb(216, 200, 218);
     background-color: var(--formulario);
-    padding: 2rem;
+    padding: 0.1rem;
     border-radius: 1rem;
-}
+}*/
 
 /* UTILIDADES */
 .wm-sm-100 {
@@ -133,6 +134,8 @@ h2 {
         display: block;  
         background-color: var(--grisclaro);
         font-size: 2rem;
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
     }
 
     textarea{
