@@ -24,6 +24,10 @@ body{
     background-image: linear-gradient(to bottom, var(--grisclaro) 0%, var(--blanco) 100% );
 }
 
+h2 {
+    font-size: 1.5rem;
+}
+
 .boton{
     background-color: var(--secundario);
     color: var(--blanco);
@@ -63,21 +67,6 @@ body{
     border-radius: 1rem;
 }
 
-/* tipografia */
-h1 {
-    font-size: 3.8rem;
-    text-transform: uppercase;
-}
-h2 {
-    font-size: 1.8rem;
-}
-h3 {
-    font-size: 1.8rem;
-}
-h1,h2,h3{
-    text-align: center;
-}
-
 /* UTILIDADES */
 .wm-sm-100 {
     width: 100%;
@@ -111,7 +100,7 @@ h1,h2,h3{
 
 .formulario legend{
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
     text-transform: uppercase;
     font-weight: 700;
     margin-bottom: 1.5rem;
@@ -132,7 +121,9 @@ h1,h2,h3{
 .campo{
         margin-bottom: 1rem;
         background-color: var(--blanco);
-        border-radius: .5rem;
+        border-radius: 0.5rem;
+
+
     }
 
 .campo label{
@@ -140,19 +131,20 @@ h1,h2,h3{
         font-weight: bold;
         margin-bottom: .5rem;
         display: block;  
-        background-color: var(--grisclaro) 
+        background-color: var(--grisclaro);
+        font-size: 2rem;
     }
 
-.campo textarea{
+    textarea{
         height: 20rem;
     }
 
     .input-text {
         width: 100%;
         border: none;
-        padding: 1.5rem;
+        padding: .5rem;
         border-radius: .5rem;
-        background-color: var(--blanco)
+        background-color: var(--blanco);
     }
 
     
